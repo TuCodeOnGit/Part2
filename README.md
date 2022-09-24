@@ -1,3 +1,3 @@
-Shoes Store from Cyberlearn Test
+Test Part 2 from Cyberlearn Test
 
-Depoy link https://cybershoestore.web.app/detail/5
+Deploy link https://cybershoestore.web.app/detail/5
