@@ -1,0 +1,19 @@
+.menu {
+  padding: 1rem 2rem;
+  background-color: #f5f5f5;
+
+  .menu-item {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+    margin-right: 1.5rem;
+    &.active {
+      font-weight: 400;
+    }
+
+    &.light {
+      opacity: 0.7;
+    }
+  }
+}

@@ -1,0 +1,94 @@
+.section-register {
+  padding: 2rem 10rem;
+
+  .section-register-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .register-form {
+    display: flex;
+    gap: 5rem;
+
+    .input-fluid {
+      min-width: 100%;
+      padding: 1rem 0;
+      margin-bottom: 1.8rem;
+      outline: none;
+      border: 0;
+      border-bottom: 4px solid #AE18E2;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 36px;
+      &::placeholder {
+        color: #000;
+      }
+    }
+
+    .required {
+      position: relative;
+      &::after {
+        content: '(*)';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: red;
+      }
+    }
+    
+    .radio-wrapper.input-fluid {
+      display: block;
+      border: none;
+
+      .radio {
+        display: none;
+        
+        &:checked + label::before {
+          background-color: #AE18E2;
+          border-color: #D9D9D9;
+        }
+
+        & + label {
+          cursor: pointer;
+          margin-left: 1rem;
+
+          &::before {
+            content: "";
+            cursor: pointer;
+            display: inline-block;
+            vertical-align: bottom;
+            width: 40px;
+            height: 30px;
+            margin-right: 0.5rem;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: .8rem;
+            border-color: #D9D9D9;
+            background-color: #D9D9D9;
+          }
+        }
+      }
+    }
+
+    .btn-submit {
+      padding: .5rem 6rem;
+      border: none;
+      color: #fff;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 36px;
+      background: #AE18E2;
+    }
+  }
+
+  .register-form-left, .register-form-right {
+    width: 50%;
+  }
+
+}

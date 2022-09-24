@@ -1,0 +1,18 @@
+.product-feature {
+  padding-bottom: 6rem;
+  .product-feature-title {
+    margin-bottom: 5rem;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem 5rem;
+    padding-left: 99px;
+    padding-right: 46px;
+  }
+}

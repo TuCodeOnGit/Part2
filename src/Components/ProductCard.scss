@@ -1,0 +1,54 @@
+.card {
+  width: calc((100% / 3) - 5rem);
+  background: #F8F8F8;
+  
+  .card-top {
+    padding: 0 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-image {
+    width: 100%;
+  }
+
+  .product-name {
+    margin: 0;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .product-description {
+    margin: 0;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #CBC9C9;
+  }
+
+  .card-bottom {
+    display: flex;
+
+    .btn-product {
+      padding: .8rem 1rem;
+      width: 50%;
+      background: #E1B067;
+      font-weight: 200;
+      font-size: 24px;
+      line-height: 29px;
+      color: #000000;
+      border: none;
+    }
+    .price {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      margin: 0;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+      background: #DEDDDC;
+    }
+  }
+}

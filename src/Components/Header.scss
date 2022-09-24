@@ -1,0 +1,32 @@
+.header {
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .cart {
+    display: flex;
+    gap: 2px;
+
+    .products-count {
+      font-size: 30px;
+      color: #fff;
+    }
+  }
+
+  .header-link {
+    text-decoration: none;
+    margin-left: 1rem;
+    color: #f6f6f6;
+    font-weight: 100;
+  }
+}
+
